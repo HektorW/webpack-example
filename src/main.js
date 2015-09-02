@@ -1,6 +1,5 @@
 
-// var style = require('style!css!./style.css');
-
+// http://localhost:8080/webpack-dev-server/bundle
 require('./styles.js');
 
 
