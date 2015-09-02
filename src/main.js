@@ -1,22 +1,20 @@
 
-// http://localhost:8080/webpack-dev-server/bundle
-require('./styles.js');
+// require('./link/link.js')('unicorn');
+// require('./style.css');
 
 
-var Timer = require('./timer.js');
-var Logger = require('./logger');
+// var timer = new require('./timer.js');
+// var Logger = require('./logger');
 
-
-var timer = new Timer();
-
-timer.start();
+// timer.start();
 
 var h1 = document.createElement('h1');
 h1.innerHTML = 'Webpack';
-
 document.body.appendChild(h1);
 
-timer.stop();
-timer.print();
+// document.body.appendChild(require('./unicorn/unicorn.js'));
 
-Logger.log(timer.elapsed());
+// timer.stop();
+// timer.print();
+
+// Logger.log('Webpack is qewl guys');
